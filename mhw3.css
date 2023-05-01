@@ -1,0 +1,133 @@
+/* TO DO: inserite il CSS necessario per completare il MHW! */
+body{
+  background-color: rgb(250, 250, 160);
+}
+
+@media (max-width: 700px){
+    article{
+      width: 95%;
+    }
+    
+    article header div span{
+      display: none;
+    }
+  }
+  
+  @media(max-width: 500px){
+      .choice-grid div{
+          width: 49%;
+      }
+  }
+  
+  .choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .choice-grid div{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+  
+    width: 32.5%;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .choice-grid img{
+    width: 100%;
+  }
+  
+  .opacity{
+    opacity: 0.6;
+  }
+  
+  .choice-grid div.selected{
+    background-color:#cfe3ff;
+  }
+    
+  .hidden{
+    display: none;
+  }
+  
+  article .question-name {
+    margin-top: 20px;
+    background-size: cover;
+  }
+  
+  article .question-name h1{
+    color: rgb(235, 235, 25);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  #result-block{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #result-block h1{
+    margin-bottom: 18px;
+    margin-top: 0px;
+  }
+  
+  #result-block p{
+    margin-bottom: 18px;
+  }
+  
+  #result-button{
+    height: 50px;
+    background-color: #cecece;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #result-button:hover{
+    background-color: #e0e0e0;
+  }
+  
+  .hidden{
+    display: none;
+  }
+
+ #blocco{
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+ }
+
+#search-content, #right-block{
+  width: 50%;
+}
+
+#titolo{
+  text-align: center;
+}
+
+
+ #spotify div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+ .thumbnail{
+    max-width: 25%;
+    max-height: 150px;
+    margin-right: 10px;
+ }
+
+.link{
+  margin-left: auto;
+}
+
+ .play_button{
+    height: 70px;
+ }
+
+
